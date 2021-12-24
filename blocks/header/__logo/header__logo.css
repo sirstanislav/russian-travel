@@ -2,5 +2,6 @@
   width: 176px;
   height: 52px;
   background-image: url(../../../images/header-logo.svg);
+  background-repeat: no-repeat;
   margin: 0;
 }
