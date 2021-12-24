@@ -1,3 +1,6 @@
 .header {
-    background-color: #2A2C2F;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-top: 28px;
+  margin: 0 48px 0 48px;
 }
