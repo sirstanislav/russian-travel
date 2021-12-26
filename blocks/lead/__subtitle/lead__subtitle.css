@@ -1,11 +1,18 @@
 .lead__subtitle {
-  width: 640px;
-  height: 72px;
-  text-align: center;
+  width: 65.0406504065%;
+  min-width: 288px;
   justify-self: center;
-  margin: 32px 0 0 0;
-  font-size: 30px;
+
+  text-align: center;
+  font-size: clamp(16px, 2.34375vw, 2.34375vw);
   font-weight: 400;
-  line-height: 36px;
+  line-height: clamp(20px, 2.8125vw, 2.8125vw);
   color: #FFFFFF;
+
+  padding: 0;
+  margin: 2.5vw 0 0 0;
+  /* margin: 32px 0 0 0; */
+
+
+
 }

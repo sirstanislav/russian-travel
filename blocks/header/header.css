@@ -1,6 +1,17 @@
 .header {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  padding: 28px 48px 0 48px;
-  margin: 0;
+  width: 92.5%;
+  height: 5.2%;
+
+  display: flex;
+  justify-content: space-between;
+  
+  padding: 2.1875vw 0 0; /* 28px 0 0 */
+  margin: 0 min(16px);
 }
+
+/* @media screen and (min-width: 1024px) {
+  .header {
+    min-height: 42px;
+  }
+} */
+

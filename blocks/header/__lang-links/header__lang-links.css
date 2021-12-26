@@ -4,7 +4,10 @@
   column-gap: 18px;
   justify-self: self-end;
   align-self: self-end;
+
+  list-style: none;
+
   padding: 0;
   margin: 0;
-  list-style: none;
+  
 }

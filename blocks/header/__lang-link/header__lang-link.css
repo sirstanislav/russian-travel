@@ -1,7 +1,10 @@
 .header__lang-link {
-  font-size: 24px;
+  font-size: 1.875vw; /* 24px */
+  font-size: min(18px);
+  line-height: 2.1875vw; /* 28px */
   color: #FFFFFF;
   text-decoration: none;
+
   margin: 0;
 }
 
