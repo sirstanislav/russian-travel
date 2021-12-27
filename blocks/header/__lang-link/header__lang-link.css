@@ -1,11 +1,20 @@
 .header__lang-link {
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 1.875vw;
+  /* font-size: 24px; */
+  line-height: 2.1875vw;
+  /* line-height: 28px; */
   color: #FFFFFF;
   text-decoration: none;
 
   margin: 0;
 }
+
+
+/* 
+
+[lang="ru"] Смотрит какой язык у страницы и делает текст подчеркнутым.
+
+*/
 
 [lang="ru"] .header__lang-link:lang(ru) {
   text-decoration: underline;
@@ -15,7 +24,28 @@
   text-decoration: underline;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 1024px) and (max-width: 1280) {
+  .header__lang-link {
+    font-size: 24px;
+    line-height: 1.1111;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .header__lang-link {
+    font-size: 24px;
+    line-height: 1.1111;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .header__lang-link {
+    font-size: 24px;
+    line-height: 1.1111;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
   .header__lang-link {
     font-size: 18px;
     line-height: 1.1111;

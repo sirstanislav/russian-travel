@@ -1,18 +1,36 @@
 .header__logo {
   width: 13.75vw;
-  min-width: 176px;
-    /* Минимальная высота чтобы не прописывать @media 
-      для трех размеров ради одного значения */
-  max-height: 52px;
+  height: 6.5vh;
 
   background-image: url(../../../images/header-logo.svg);
   background-repeat: no-repeat;
   background-size: contain;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 1024px) and (max-width: 1280) {
   .header__logo {
-    min-width: 142px;
-    min-height: 42px;
+    width: 176px;
+    height: 52px;
   }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .header__logo {
+    width: 176px;
+    height: 52px;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .header__logo {
+    width: 176px;
+    height: 52px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .header__logo {
+    width: 142px;
+    height: 42px;
+  }
+} 
