@@ -1,7 +1,6 @@
 .header__lang-link {
-  font-size: 1.875vw; /* 24px */
-  font-size: min(18px);
-  line-height: 2.1875vw; /* 28px */
+  font-size: 24px;
+  line-height: 28px;
   color: #FFFFFF;
   text-decoration: none;
 
@@ -14,4 +13,11 @@
 
 [lang="en"] .header__lang-link:lang(en) {
   text-decoration: underline;
+}
+
+@media screen and (max-width: 320px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 1.1111;
+  }
 }

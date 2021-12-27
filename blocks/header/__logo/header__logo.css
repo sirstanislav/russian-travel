@@ -1,10 +1,18 @@
 .header__logo {
   width: 13.75vw;
-  min-width: 142px;
-  min-height: 4.0625vw;
-  min-height: 42px;
+  min-width: 176px;
+    /* Минимальная высота чтобы не прописывать @media 
+      для трех размеров ради одного значения */
+  max-height: 52px;
 
   background-image: url(../../../images/header-logo.svg);
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+@media screen and (max-width: 320px) {
+  .header__logo {
+    min-width: 142px;
+    min-height: 42px;
+  }
 }
