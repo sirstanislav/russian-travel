@@ -2,7 +2,7 @@
   /* width: 1184px; */
   width: 92.5vw;
   /* height: 52px; */
-  height: 52%;
+  /* height: 52%; */
 
   display: flex;
   justify-content: space-between;
@@ -15,7 +15,7 @@
 @media screen and (min-width: 1024px) and (max-width: 1280) {
   .header {
     width: 1184px;
-    height: 52px;
+    /* height: 52px; */
     padding: 28px 0 0 0;
   }
 }
@@ -24,7 +24,7 @@
   .header {
     width: 90.625vw;
     /* width: 928px; */
-    height: 52%;
+    /* height: 52%; */
     /* padding: 28px 0 0 0; */
     padding: 2.734375vw 0 0 0;
   }
@@ -34,7 +34,7 @@
   .header {
     width: 93.75vw;
     /* width: 720px; */
-    height: 52%;
+    /* height: 52%; */
     padding: 3.645833333333334vw 0 0 0;
   }
 }
@@ -43,7 +43,7 @@
   .header {
     width: 90vw;
     /* width: 288px; */
-    height: 42%;
+    /* height: 42%; */
     
     padding-top: 5vw;
   }
