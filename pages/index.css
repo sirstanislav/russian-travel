@@ -20,8 +20,9 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
 
-@import url();
-@import url();
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__images/photo-grid__images.css);
+
 @import url();
 @import url();
 @import url();
