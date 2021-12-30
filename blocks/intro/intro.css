@@ -1,7 +1,6 @@
 .intro {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
 
   /* width: 690px; */
   width: 53.90625vw;

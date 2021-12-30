@@ -13,7 +13,7 @@
   margin: 0.625vw 0 0 0;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1280) {
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
   .lead__caption { 
     font-size: 10px;
     line-height: 14px;

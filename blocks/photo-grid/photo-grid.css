@@ -5,12 +5,9 @@
 
   padding: 7.1875vw 3.75vw 0 3.75vw ;
   box-sizing: border-box;
-
-  object-fit: cover;
-  object-position: left;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1280) {
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
   .photo-grid {
     grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
     gap: 16px;
