@@ -54,6 +54,8 @@
   .place {
     /* width: 320px; */
     width: 100vw;
+    /* height: 965px; */
+    /* height: calc(100vw * (965 / 320)); */
 
     grid-template-columns: none;
     /* row-gap: 32px; */
