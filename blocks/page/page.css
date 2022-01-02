@@ -1,7 +1,5 @@
 .page {
   width: 100vw;
-  min-width: 320px;
-  /* min-height: 100vh; */
 
   font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
   -moz-osx-font-smoothing: grayscale;
@@ -13,11 +11,31 @@
 
   background-color: #2A2C2F;
 
-  margin: 0;
+  margin: 0 auto;
+}
+
+/* 
+
+
+@media screen and (max-width: 1280px) {
+
+}
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 320px) {
+
 }
 
 
 
+*/
 
 /* 
 
@@ -32,19 +50,19 @@
 
 */
 
+/* 
 
-/* @media screen and (min-width: 1024px) and (max-width: 1280px) {
-  
-}
+Найти vw:
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  
-}
+размер блоока / ширину экрана
 
-@media screen and (min-width: 425px) and (max-width: 768px) {
-  
-}
+12.8
+10.24
+7.68
+3.2
 
-@media screen and (min-width: 320px) and (max-width: 425px) {
-  
-} */
+Из vw в px:
+
+размер блоока * ширину экрана
+
+*/

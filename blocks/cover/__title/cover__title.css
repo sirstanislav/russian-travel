@@ -50,7 +50,7 @@
     width: calc(100vw * (560 / 768));
     height: calc( 100vw * (152 / 768));
 
-    font-size: 72px;
+    font-size: calc(100vw * (72 / 768));
     line-height: 76px;
     
     /* top: calc(100vw * (115 / 768)); */
