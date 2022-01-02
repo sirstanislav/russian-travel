@@ -1,0 +1,33 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 7.1875vw 3.75vw 1.875vw;
+  margin: 0;
+}
+
+
+@media screen and (max-width: 1280px) {
+  .footer {
+    padding: 7.1875vw 3.75vw 1.875vw;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    padding: 8.984375vw 4.6875vw 4.6875vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    padding: 11.458333333333333vw 3.125vw 3.125vw;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
+    flex-direction: column;
+    padding: 20vw 33.75vw 7.5vw 5vw;
+  }
+}

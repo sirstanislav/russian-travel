@@ -1,0 +1,45 @@
+.footer__link {
+  font-size: calc(100vw * (16 / 1280));
+  line-height: calc(100vw * (18 / 1280));
+  text-decoration: none;
+
+  margin: 0 1.40625vw 0 0;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 1280px) {
+  .footer__link {
+    font-size: calc(100vw * (16 / 1280));
+    line-height: calc(100vw * (18 / 1280));
+    margin: 0 1.40625vw 0 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .footer__link {
+    font-size: calc(100vw * (16 / 1024));
+    line-height: calc(100vw * (18 / 1024));
+    margin: 0 1.7578125vw 0 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer__link {
+    font-size: calc(100vw * (16 / 768));
+    line-height: calc(100vw * (18 / 768));
+    margin: 0 2.34375vw 0 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer__link {
+    font-size: calc(100vw * (24 / 320));
+    line-height: calc(100vw * (24 / 320));
+
+    margin: 0 0 10vw 0;
+  }
+
+  .footer__link:last-child {
+    margin: 0 0 15vw 0;
+  }
+}
