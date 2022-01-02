@@ -12,21 +12,22 @@
 
 @media screen and (max-width: 1280px) {
   .lead {
-    width: 984px;
-    padding-top: 56px;
+    width: calc(100vw * (984 / 1280));
+    padding-top: calc(100vw * (56 / 1280));
   }
 }
 
 @media screen and (max-width: 1024px) {
   .lead {
-    width: 928px;
-    padding-top: 48px;
+    width: calc(100vw * (928 / 1024));
+    padding-top: calc(100vw * (48 / 1024));
   }
 }
 
 @media screen and (max-width: 768px) {
   .lead {
     width: 100vw;
+    padding-top: calc(100vw * (48 / 768));
   }
 }
 
