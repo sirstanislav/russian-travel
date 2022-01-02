@@ -1,33 +1,21 @@
 .place__paragraph {
-  /* width: 484px; */
-  /* width: 37.8125vw; */
-  /* width: 100%; */
+  
 }
 
 @media screen and (max-width: 1280px) {
-  .place__paragraph {
-    /* width: 484px; */
-    /* width: 37.8125vw; */
-    /* width: 100%; */
-  }
+  
 }
 
 @media screen and (max-width: 1024px) {
-  .place__paragraph {
-    /* width: 100%; */
-  }
+  
 }
 
 @media screen and (max-width: 768px) {
-  .place__paragraph {
-    /* width: 100%; */
-  }
+  
 }
 
 @media screen and (max-width: 320px) {
   .place__paragraph {
-    /* width: 288px; */
-    width: 90vw;
     margin: 0 5vw;
   }
 }

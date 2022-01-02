@@ -1,73 +1,65 @@
 .cover__title {
-  /* width: 560px; */
-  width: 43.75vw;
+  width: calc(100vw * (560 / 1280));
   height: calc( 100vw * (152 / 1280));
 
   position: absolute;
-  /* top: 245px; */
-  top: 19.140625vw;
+  top: calc(100vw * (245 / 1280));
 
-  /* font-size: 72px; */
-  font-size: 5.625vw;
-  /* line-height: 76px; */
-  line-height: 5.9375vw;
+  font-size: calc(100vw * (72 / 1280));
+  line-height: calc(100vw * (76 / 1280));
   font-weight: 900;
   color: #ffffff;
   text-align: center;
-  font-weight: 900;
 
   margin: 0;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
+@media screen and (max-width: 1280px) {
   .cover__title {
     width: calc(100vw * (560 / 1280));
     height: calc( 100vw * (152 / 1280));
 
-    font-size: 72px;
-    line-height: 76px;
+    font-size: calc(100vw * (72 / 1280));
+    line-height: calc(100vw * (76 / 1280));
 
     top: calc(100vw * (245 / 1280));
     padding-top: inherit;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .cover__title {
     width: calc(100vw * (560 / 1024));
     height: calc( 100vw * (152 / 1024));
 
-    font-size: 72px;
-    line-height: 76px;
+    font-size: calc(100vw * (72 / 1024));
+    line-height: calc(100vw * (76 / 1024));
 
     top: calc(100vw * (195 / 1024));
-    padding-top: inherit;
   }
 }
 
-@media screen and (min-width: 425px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .cover__title {
     width: calc(100vw * (560 / 768));
     height: calc( 100vw * (152 / 768));
 
     font-size: calc(100vw * (72 / 768));
-    line-height: 76px;
+    line-height: calc(100vw * (76 / 768));
     
-    /* top: calc(100vw * (115 / 768)); */
-    top: 115px;
+    top: calc(100vw * (115 / 768));
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 425px) {
+@media screen and (max-width: 320px) {
   .cover__title {
     width: calc(100vw * (288 / 320));
     height: calc( 100vw * (70 / 320));
 
-    font-size: 32px;
-    line-height: 35px;
+    font-size: calc( 100vw * (32 / 320));
+    line-height: calc( 100vw * (35 / 320));
 
     top: calc(100vw * (33 / 320));
-    padding-top: inherit;
-    margin: 0 16px;
+    margin: 0 5vw;
   }
 }
