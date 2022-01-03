@@ -2,11 +2,29 @@
   position: relative;
   padding-top: calc(100vw * (92 / 1280));
 
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 
   margin: 0;
+}
+
+.cover:hover .cover__overlay {
+  opacity: .8;
+  transition: opacity .3s linear;
+  -webkit-transition: opacity .3s linear;
+  -moz-transition: opacity .3s linear;
+  -ms-transition: opacity .3s linear;
+  -o-transition: opacity .3s linear;
 }
 
 @media screen and (max-width: 1280px) {

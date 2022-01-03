@@ -1,6 +1,7 @@
 .footer__link {
   font-size: calc(100vw * (16 / 1280));
   line-height: calc(100vw * (18 / 1280));
+  font-weight: normal;
   text-decoration: none;
 
   margin: 0 1.40625vw 0 0;

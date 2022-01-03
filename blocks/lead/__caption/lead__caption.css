@@ -6,7 +6,8 @@
   text-transform: uppercase;
   color: #FFFFFF;
 
-  align-self: flex-start;
+  -ms-flex-item-align: start;
+    align-self: flex-start;
   
   margin: 0.625vw 0 0 0;
 }

@@ -1,4 +1,5 @@
 .photo-grid {
+  display: -ms-grid;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(calc(100vw * (284 / 1280)), 1fr));
   gap: calc(100vw * (16 / 1280));

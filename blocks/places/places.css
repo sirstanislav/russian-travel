@@ -1,6 +1,7 @@
 .places {
   padding-top: calc(100vw * (92 / 1280));
 
+  display: -ms-grid;
   display: grid;
   row-gap: calc(100vw * (80 / 1280));
 

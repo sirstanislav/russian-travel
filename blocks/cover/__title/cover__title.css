@@ -2,14 +2,16 @@
   width: calc(100vw * (560 / 1280));
   height: calc( 100vw * (152 / 1280));
 
-  position: absolute;
-  top: calc(100vw * (245 / 1280));
-
   font-size: calc(100vw * (72 / 1280));
   line-height: calc(100vw * (76 / 1280));
   font-weight: 900;
   color: #ffffff;
   text-align: center;
+  text-decoration: none;
+  z-index: 1;
+
+  position: absolute;
+  top: calc(100vw * (245 / 1280));
 
   margin: 0;
 }

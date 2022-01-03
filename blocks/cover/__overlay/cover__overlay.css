@@ -3,7 +3,7 @@
   width: calc(100vw * (1184 / 1280));
   height: calc(100vw * (740 / 1280));
 
-  opacity: 0.3;
+  opacity: .3;
   background-color: #2A2C2F;
 }
 
