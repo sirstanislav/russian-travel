@@ -1,65 +1,52 @@
 .cover__title {
-  width: calc(100vw * (560 / 1280));
-  height: calc( 100vw * (152 / 1280));
-
   font-size: calc(100vw * (72 / 1280));
   line-height: calc(100vw * (76 / 1280));
   font-weight: 900;
   color: #ffffff;
   text-align: center;
   text-decoration: none;
+  white-space: pre-line;
 
   position: absolute;
-  top: calc(100vw * (337 / 1280));
+  top: calc(100vw * (245 / 1280));
 
-  margin: 0;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 1280px) {
   .cover__title {
-    width: calc(100vw * (560 / 1280));
-    height: calc( 100vw * (152 / 1280));
+    top: calc(100vw * (245 / 1280));
 
     font-size: calc(100vw * (72 / 1280));
     line-height: calc(100vw * (76 / 1280));
-
-    top: calc(100vw * (337 / 1280));
   }
 }
 
 @media screen and (max-width: 1024px) {
   .cover__title {
-    width: calc(100vw * (560 / 1024));
-    height: calc( 100vw * (152 / 1024));
+    top: calc(100vw * (195 / 1024));
 
     font-size: calc(100vw * (72 / 1024));
     line-height: calc(100vw * (76 / 1024));
-
-    top: calc(100vw * (287 / 1024));
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover__title {
-    width: calc(100vw * (560 / 768));
-    height: calc( 100vw * (152 / 768));
+    top: calc(100vw * (115 / 768));
 
     font-size: calc(100vw * (72 / 768));
     line-height: calc(100vw * (76 / 768));
-    
-    top: calc(100vw * (205 / 768));
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover__title {
-    width: calc(100vw * (288 / 320));
-    height: calc( 100vw * (70 / 320));
+    top: calc(100vw * (33 / 320));
 
     font-size: calc( 100vw * (32 / 320));
     line-height: calc( 100vw * (35 / 320));
-
-    top: calc(100vw * (99 / 320));
+    
     margin: 0 auto;
   }
 }

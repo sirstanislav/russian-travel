@@ -1,10 +1,36 @@
 .cover__overlay {
-  position: absolute;
+  position: relative;
   width: 100%;
   height: calc(100vw * (740 / 1280));
+  background-image: url(../../../images/cover-trains.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  object-fit: cover;
+  background-position: center;
 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cover__overlay::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
   opacity: .3;
   background-color: #2A2C2F;
+}
+
+.cover__overlay:hover::before {
+  opacity: .8;
+  transition: opacity .3s linear;
+  -webkit-transition: opacity .3s linear;
+  -moz-transition: opacity .3s linear;
+  -ms-transition: opacity .3s linear;
+  -o-transition: opacity .3s linear;
 }
 
 @media screen and (max-width: 1280px) {
