@@ -1,18 +1,14 @@
 .intro__text {
-  /* width: calc(100vw * (690 / 1280)); */
   font-size: calc(100vw * (16 / 1280));
   line-height: calc(100vw  * (26 / 1280));
   font-weight: 400;
   color: #ffffff;
   
-
   margin: 3.125vw 0 0 0;
 }
 
 @media screen and (max-width: 1280px) {
   .intro__text {
-    /* width: 690px; */
-
     font-size: 16px;
     line-height: 26px;
     margin: 40px 0 0 0;
@@ -25,7 +21,6 @@
 
 @media screen and (max-width: 768px) {
   .intro__text {
-    /* width: calc(100vw * (690 / 768)); */
     font-size: calc(100vw * (16 / 768));
     line-height: calc(100vw  * (26 / 768));
   }

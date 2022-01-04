@@ -5,7 +5,6 @@
   letter-spacing: calc(100vw * (2 / 1280));
   color: #AAAAAA;
 
-  /* margin-bottom: 12px; */
   margin: 0 0 .9375vw 0;
 }
 
@@ -19,11 +18,9 @@
 }
 
 @media screen and (max-width: 1024px) {
-  
 }
 
 @media screen and (max-width: 768px) {
-  
 }
 
 @media screen and (max-width: 320px) {

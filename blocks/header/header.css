@@ -1,6 +1,4 @@
 .header {
-  /* width: calc(100vw * (1184 / 1280)); */
-
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -21,20 +19,17 @@
 
 @media screen and (max-width: 1024px) {
   .header {
-    /* width: calc(100vw * (928 / 1024)); */
   }
 }
 
 @media screen and (max-width: 768px) {
   .header {
-    /* width: calc(100vw * (720 / 768)); */
     padding: 28px 24px 0;
   }
 }
 
 @media screen and (max-width: 320px) {
   .header {
-    /* width: calc(100vw * (288 / 320)); */
     padding: 5vw 5vw 0;
     margin: 0;
   }

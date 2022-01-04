@@ -1,6 +1,5 @@
 .lead__image {
   width: calc(100vw * (984 / 1280));
-
   margin: 5vw auto 0;
 }
 
