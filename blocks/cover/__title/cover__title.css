@@ -60,6 +60,6 @@
     line-height: calc( 100vw * (35 / 320));
 
     top: calc(100vw * (99 / 320));
-    margin: 0 5vw;
+    margin: 0 auto;
   }
 }
