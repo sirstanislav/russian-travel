@@ -14,10 +14,6 @@
   margin: 0 auto;
 }
 
-* {
-  outline: 1px solid red;
-  }
-
 /* 
 @media screen and (max-width: 1280px) {
 }
@@ -28,13 +24,3 @@
 @media screen and (max-width: 320px) {
 } 
 */
-
-
-/*  Найти vw:
-размер блоока / ширину экрана
-12.8
-10.24
-7.68
-3.2
-Из vw в px:
-размер блоока * ширину экрана */
