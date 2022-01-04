@@ -1,33 +1,34 @@
 .intro {
+  width: calc(100vw * (690 / 1280));
+  margin-left: calc(100vw * (148 / 1280));
   padding-top: calc(100vw * (92 / 1280));
-  margin: 0 auto 0 11.5625vw;
 }
 
 @media screen and (max-width: 1280px) {
   .intro {
-    margin: 0 auto 0 148px;
-    padding-top: 92px;
   }
 }
 
 @media screen and (max-width: 1024px) {
   .intro {
-    margin: 0 auto 0 48px;
+    width: calc(100vw * (690 / 1024));
+    margin-left: calc(100vw * (48 / 1024));
+    padding-top: calc(100vw * (92 / 1024));
   }
 }
 
 @media screen and (max-width: 768px) {
   .intro {
-    margin: 0 24px 0;
+    width: calc(100vw * (720 / 768));
+    margin: 0 auto;
     padding-top: calc(100vw * (88 / 768));
   }
 }
 
 @media screen and (max-width: 320px) {
   .intro {
-    padding: 20vw 0 0 0;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    margin: 0 5vw 0;
+    width: calc(100vw * (288 / 320));
+    margin: 0 auto;
+    padding: 20vw 0 0;
   }
 }

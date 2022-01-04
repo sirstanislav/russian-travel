@@ -1,6 +1,6 @@
 .cover__overlay {
   position: absolute;
-  width: calc(100vw * (1184 / 1280));
+  width: 100%;
   height: calc(100vw * (740 / 1280));
 
   opacity: .3;
@@ -9,14 +9,12 @@
 
 @media screen and (max-width: 1280px) {
   .cover__overlay {
-    width: calc(100vw * (1184 / 1280));
     height: calc(100vw * (740 / 1280));
   }
 }
 
 @media screen and (max-width: 1024px) {
   .cover__overlay {
-    max-width: 100vw;
     height: calc(100vw * (640 / 1024));
   }
 }

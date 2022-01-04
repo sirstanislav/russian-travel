@@ -1,5 +1,5 @@
 .lead__image {
-  width: 100%;
+  width: calc(100vw * (984 / 1280));
 
   margin: 5vw auto 0;
 }
@@ -12,12 +12,15 @@
 
 @media screen and (max-width: 1024px) {
   .lead__image {
+    width: 90.625vw;
     margin: 56px auto 0;
   }
 }
 
 @media screen and (max-width: 768px) {
-
+  .lead__image {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 320px) {

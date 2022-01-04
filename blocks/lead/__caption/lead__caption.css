@@ -9,7 +9,7 @@
   -ms-flex-item-align: start;
     align-self: flex-start;
   
-  margin: 0.625vw 0 0 0;
+  margin: 0.625vw 11.5625vw;
 }
 
 @media screen and (max-width: 1280px) {
@@ -17,12 +17,14 @@
     font-size: 10px;
     line-height: 1.4;
     letter-spacing: 1.5px;
-    margin: 8px 0 0 0;
+    margin: 8px 0 0 148px;
   }
 }
 
 @media screen and (max-width: 1024px) {
-
+  .lead__caption {
+    margin: 8px 0 0 48px;
+  }
 }
 
 @media screen and (max-width: 768px) {

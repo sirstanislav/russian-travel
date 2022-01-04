@@ -1,27 +1,28 @@
 .cover__image {
-  width: calc(100vw * (1184 / 1280));
+  width: 100%;
+  height: calc(100vw * (740 / 1280));
 }
 
 @media screen and (max-width: 1280px) {
   .cover__image {
-    width: calc(100vw * (1184 / 1280));
+    height: calc(100vw * (740 / 1280));
   }
 }
 
 @media screen and (max-width: 1024px) {
   .cover__image {
-    max-width: 100vw;
+    height: calc(100vw * (640 / 1024));
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover__image {
-    max-width: 100vw;
+    height: calc(100vw * (480 / 768));
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover__image {
-    max-width: 100vw;
+    height: calc(100vw * (200 / 320));
   }
 }

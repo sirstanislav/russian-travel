@@ -28,7 +28,7 @@
   .places {
     padding-top: calc(100vw * (88 / 768));
     row-gap: calc(100vw * (73 / 768));
-    margin: 0 3.125vw;
+    margin: 0 auto;
   }
 }
 
