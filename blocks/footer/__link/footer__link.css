@@ -3,6 +3,7 @@
   line-height: calc(100vw * (18 / 1280));
   font-weight: normal;
   text-decoration: none;
+  display: block;
 
   margin: 0 1.40625vw 0 0;
   color: #ffffff;
@@ -38,9 +39,5 @@
     line-height: calc(100vw * (24 / 320));
 
     margin: 0 0 10vw 0;
-  }
-
-  .footer__link:last-child {
-    margin: 0 0 15vw 0;
   }
 }
