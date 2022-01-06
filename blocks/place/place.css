@@ -1,28 +1,37 @@
 .place {
-  width: calc(100vw * (984 / 1280));
+  max-width: 984px;
 
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: minmax(-webkit-min-content, -webkit-max-content) calc(100vw * (40 / 1280)) minmax(-webkit-min-content, -webkit-max-content);
-  -ms-grid-columns: minmax(min-content, max-content) calc(100vw * (40 / 1280)) minmax(min-content, max-content);
+  -ms-grid-columns: minmax(-webkit-min-content, -webkit-max-content) 40px minmax(-webkit-min-content, -webkit-max-content);
+  -ms-grid-columns: minmax(min-content, max-content) 40px minmax(min-content, max-content);
   grid-template-columns: repeat(2, minmax(-webkit-min-content, -webkit-max-content));
   grid-template-columns: repeat(2, minmax(min-content, max-content));
-  -webkit-column-gap: calc(100vw * (40 / 1280));
-    -moz-column-gap: calc(100vw * (40 / 1280));
-      column-gap: calc(100vw * (40 / 1280));
-  row-gap: calc(100vw * (40 / 1280));
+  -ms-grid-rows: minmax(-webkit-min-content, -webkit-max-content) 48px minmax(-webkit-min-content, -webkit-max-content);
+  -ms-grid-rows: minmax(min-content, max-content) 48px minmax(min-content, max-content);
+  grid-template-rows: repeat(2, minmax(-webkit-min-content, -webkit-max-content));
+  grid-template-rows: repeat(2, minmax(min-content, max-content));
+  -webkit-column-gap: 40px;
+     -moz-column-gap: 40px;
+          column-gap: 40px;
+  row-gap: 48px;
 
   margin: 0 auto;
+}.place > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}.place > *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+}.place > *:nth-child(3) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+}.place > *:nth-child(4) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
 }
 
 @media screen and (max-width: 1280px) {
-  .place{
-    width: calc(100vw * (984 / 1280));
-    -webkit-column-gap: calc(100vw * (40 / 1280));
-      -moz-column-gap: calc(100vw * (40 / 1280));
-          column-gap: calc(100vw * (40 / 1280));
-    row-gap: calc(100vw * (48 / 1280)); 
-  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -31,7 +40,6 @@
     -webkit-column-gap: calc(100vw * (32 / 1024));
       -moz-column-gap: calc(100vw * (32 / 1024));
         column-gap: calc(100vw * (32 / 1024));
-    row-gap: calc(100vw * (48 / 1024));
   }
 }
 
@@ -41,7 +49,6 @@
     -webkit-column-gap: calc(100vw * (28 / 768));
       -moz-column-gap: calc(100vw * (28 / 768));
         column-gap: calc(100vw * (28 / 768));
-    row-gap: calc(100vw * (48 / 768));
   }
 }
 

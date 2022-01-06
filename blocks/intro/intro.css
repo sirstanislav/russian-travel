@@ -1,7 +1,7 @@
 .intro {
-  width: calc(100vw * (690 / 1280));
-  margin-left: calc(100vw * (148 / 1280));
-  padding-top: calc(100vw * (92 / 1280));
+  max-width: 690px;
+  margin-left: 148px;
+  padding-top: 92px;
 }
 
 @media screen and (max-width: 1280px) {
@@ -11,15 +11,14 @@
   .intro {
     width: calc(100vw * (690 / 1024));
     margin-left: calc(100vw * (48 / 1024));
-    padding-top: calc(100vw * (92 / 1024));
   }
 }
 
 @media screen and (max-width: 768px) {
   .intro {
-    width: calc(100vw * (720 / 768));
-    margin: 0 auto;
+    width: calc(100% - 48px);
     padding-top: calc(100vw * (88 / 768));
+    margin-left: 24px;
   }
 }
 

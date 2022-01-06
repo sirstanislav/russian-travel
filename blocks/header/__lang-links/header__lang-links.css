@@ -1,11 +1,11 @@
 .header__lang-links {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr calc(100vw * (18 / 1280)) 1fr;
+  -ms-grid-columns: 1fr 18px 1fr;
   grid-template-columns: repeat(2, 1fr);
-  -webkit-column-gap: calc(100vw * (18 / 1280));
-     -moz-column-gap: calc(100vw * (18 / 1280));
-          column-gap: calc(100vw * (18 / 1280));
+  -webkit-column-gap: 18px;
+     -moz-column-gap: 18px;
+          column-gap: 18px;
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
@@ -14,7 +14,7 @@
   line-height: 0;
 
   padding: 0;
-  margin: 1.40625vw 0 0.46875vw 0;
+  margin: 18px 0 6px 0;
 }
 
 @media screen and (max-width: 1280px) {

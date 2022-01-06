@@ -1,26 +1,11 @@
 .header__lang-link {
-  font-size: calc(100vw * (24 / 1280));
-  line-height: calc(100vw * (28 / 1280));
+  font-size: 24px;
+  line-height: 28px;
   color: #FFFFFF;
   text-decoration: none;
 
   margin: 0;
 }
-
-/* 
-
-[lang="ru"] Смотрит какой язык у страницы и делает текст подчеркнутым.
-
-
-
-
-[lang="ru"] .header__lang-link:lang(ru) {
-  text-decoration: underline;
-}
-
-[lang="en"] .header__lang-link:lang(en) {
-  text-decoration: underline;
-} */
 
 @media screen and (max-width: 1280px) {
   .header__lang-link {

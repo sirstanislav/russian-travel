@@ -1,6 +1,6 @@
 .place__paragraph-text {
-  font-size: calc(100vw * (18 / 1280));
-  line-height: calc(100vw * (29 / 1280));
+  font-size: 18px;
+  line-height: 29px;
   font-weight: normal;
   color: #ffffff;
 
@@ -8,14 +8,10 @@
 }
 
 .place__paragraph-text:nth-of-type(2) {
-  margin: 2.03125vw 0 0 0;
+  margin: 26px 0 0 0;
 }
 
 @media screen and (max-width: 1280px) {
-  .place__paragraph-text {
-    font-size: 18px;
-    line-height: 29px;
-  }
 }
 
 @media screen and (max-width: 1024px) {

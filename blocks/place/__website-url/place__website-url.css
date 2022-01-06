@@ -1,20 +1,14 @@
 .place__website-url {
   height: 12px;
-  font-size: calc(100vw * (12 / 1280));
+  font-size: 12px;
   line-height: 1;
-  letter-spacing: calc(100vw * (2 / 1280));
+  letter-spacing: 2px;
   color: #AAAAAA;
 
-  margin: 0 0 .9375vw 0;
+  margin: 0 0 12px 0;
 }
 
 @media screen and (max-width: 1280px) {
-  .place__website-url {
-    font-size: 12px;
-    line-height: 1;
-    letter-spacing: 2px;
-    margin: 0 0 12px 0;
-  }
 }
 
 @media screen and (max-width: 1024px) {

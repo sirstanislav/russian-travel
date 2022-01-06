@@ -1,20 +1,15 @@
 .intro__list {
-  font-size: calc(100vw * (12 / 1280));
+  font-size: 12px;
   line-height: 1.5;
   font-weight: bold;
   list-style: none;
   color: #ffffff;
   
-  margin: 2.578125vw 0 0 0;
+  margin: 33px 0 0 0;
   padding: 0;
 }
 
 @media screen and (max-width: 1280px) {
-  .intro__list {
-    font-size: 12px;
-    line-height: 18px;
-    margin: 33px 0 0 0;
-  }
 }
 
 @media screen and (max-width: 1024px) {

@@ -7,16 +7,13 @@
       -ms-flex-direction: column;
           flex-direction: column;
   
-  padding-top: 4.375vw;
+  padding-top: 56px;
   margin: 0 auto;
 
   position: relative;
 }
 
 @media screen and (max-width: 1280px) {
-  .lead {
-    padding-top: calc(100vw * (56 / 1280));
-  }
 }
 
 @media screen and (max-width: 1024px) {
