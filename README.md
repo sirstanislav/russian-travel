@@ -1,5 +1,7 @@
 # Проект: Путешествие по России
 
+[GitHub Pages](https://ctacbarada.github.io/RussianTravel/)
+
 ## О проекте:
 Эта посадочная страница носит информационный характер о разновидности мест для путишествия внутри России
 
@@ -13,5 +15,3 @@
 Также используются __@media__ запросы для отображения контента на разных разрешениях экрана
 
 ![Media](https://raw.githubusercontent.com/ctacbarada/russian-travel/main/images/Media.png)
-
-[GitHub Pages](https://ctacbarada.github.io/russian-travel/)
