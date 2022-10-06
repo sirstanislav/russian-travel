@@ -1,17 +1,17 @@
-# Проект: Путешествие по России
+# Project: Traveling in Russia
 
-[GitHub Pages](https://ctacbarada.github.io/RussianTravel/)
+## About the project:
 
-## О проекте:
-Эта посадочная страница носит информационный характер о разновидности мест для путишествия внутри России
+This landing page is informational about the variety of places to travel within Russia
 
-![Preview](https://raw.githubusercontent.com/ctacbarada/russian-travel/main/images/Preview.png)
+<a href="https://sirstanislav.github.io/russian-travel/"><img src="https://raw.githubusercontent.com/sirstanislav/russian-travel/main/images/Preview.png"></a>
 
-## Технологии:
-Сайт написан с помощью адаптивной верстки. Для построения сетки некотоых блоков используется **Grid Layout** и __Flexbox__
+## Technology:
 
-![Grid](https://raw.githubusercontent.com/ctacbarada/russian-travel/main/images/Grid.png)
+The site is written by `HTML5` and `CSS3` and using adaptive layout. To build a grid of some blocks, has been used `grid layout` and `flexbox`
 
-Также используются __@media__ запросы для отображения контента на разных разрешениях экрана
+<a href="https://sirstanislav.github.io/russian-travel/"><img src="https://raw.githubusercontent.com/ctacbarada/russian-travel/main/images/Grid.png"></a>
 
-![Media](https://raw.githubusercontent.com/ctacbarada/russian-travel/main/images/Media.png)
+`@media` requests are also used to display content at different screen resolutions
+
+<div align="center"><a href="https://sirstanislav.github.io/russian-travel/"><img src="https://raw.githubusercontent.com/ctacbarada/russian-travel/main/images/Media.png"></a></div>
